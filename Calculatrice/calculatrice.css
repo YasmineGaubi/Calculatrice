@@ -1,0 +1,33 @@
+body{
+    background-image: url("../Calculatrice/bg.jpeg");
+}
+
+#table{
+    margin-top:  160px;
+}
+
+.number{
+    height: 60px;
+    width: 60px;
+    color: white;
+    border: 5px black;
+    border-radius: 5px;
+    background-color: crimson;
+}
+
+.number:hover {
+    background-color: pink;
+  }
+
+.operator{
+    height: 60px;
+    width: 60px;
+    color: white;
+    border: 5px crimson ;
+    border-radius: 10px;
+    background-color: black  ;
+}
+
+.operator:hover {
+    background-color: gray;
+}
